@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77018C3E-E013-463E-9468-C9F741EF1A59}|ChessUI\\ChessUI.csproj|c:\\users\\remi\\pictures\\visual studio\\chess\\chessui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{77018C3E-E013-463E-9468-C9F741EF1A59}|ChessUI\\ChessUI.csproj|solutionrelative:chessui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B4EE08E1-0073-4C9E-9091-203683F53990}|ChessLogic\\ChessLogic.csproj|c:\\users\\remi\\pictures\\visual studio\\chess\\chesslogic\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4EE08E1-0073-4C9E-9091-203683F53990}|ChessLogic\\ChessLogic.csproj|solutionrelative:chesslogic\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77018C3E-E013-463E-9468-C9F741EF1A59}|ChessUI\\ChessUI.csproj|c:\\users\\remi\\pictures\\visual studio\\chess\\chessui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77018C3E-E013-463E-9468-C9F741EF1A59}|ChessUI\\ChessUI.csproj|solutionrelative:chessui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4EE08E1-0073-4C9E-9091-203683F53990}|ChessLogic\\ChessLogic.csproj|c:\\users\\remi\\pictures\\visual studio\\chess\\chesslogic\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4EE08E1-0073-4C9E-9091-203683F53990}|ChessLogic\\ChessLogic.csproj|solutionrelative:chesslogic\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4EE08E1-0073-4C9E-9091-203683F53990}|ChessLogic\\ChessLogic.csproj|c:\\users\\remi\\pictures\\visual studio\\chess\\chesslogic\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4EE08E1-0073-4C9E-9091-203683F53990}|ChessLogic\\ChessLogic.csproj|solutionrelative:chesslogic\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessUI\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "ChessUI\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessUI\\MainWindow.xaml",
-              "RelativeToolTip": "ChessUI\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-01T09:39:38.16Z",
+              "DocumentIndex": 1,
+              "Title": "Direction.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessLogic\\Direction.cs",
+              "RelativeDocumentMoniker": "ChessLogic\\Direction.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessLogic\\Direction.cs",
+              "RelativeToolTip": "ChessLogic\\Direction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T10:10:58.152Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessUI\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ChessUI\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessUI\\MainWindow.xaml.cs",
-              "RelativeToolTip": "ChessUI\\MainWindow.xaml.cs",
+              "DocumentIndex": 0,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessLogic\\Position.cs",
+              "RelativeDocumentMoniker": "ChessLogic\\Position.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessLogic\\Position.cs",
+              "RelativeToolTip": "ChessLogic\\Position.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T09:39:37.8Z",
+              "WhenOpened": "2025-09-02T09:53:58.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessLogic\\Player.cs",
+              "RelativeDocumentMoniker": "ChessLogic\\Player.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessLogic\\Player.cs",
+              "RelativeToolTip": "ChessLogic\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:50:28.407Z",
               "EditorCaption": ""
             }
           ]
