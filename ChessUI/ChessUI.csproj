@@ -9,22 +9,22 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Assets\BL_1.png" />
-    <None Remove="Assets\BL_2.png" />
-    <None Remove="Assets\BL_3.png" />
-    <None Remove="Assets\BL_4.png" />
-    <None Remove="Assets\BL_5.png" />
-    <None Remove="Assets\BL_6.png" />
+    <None Remove="Assets\BishB.png" />
+    <None Remove="Assets\BishW.png" />
     <None Remove="Assets\board.jpg" />
     <None Remove="Assets\CursorB.cur" />
     <None Remove="Assets\CursorW.cur" />
     <None Remove="Assets\icon.ico" />
-    <None Remove="Assets\W_1.png" />
-    <None Remove="Assets\W_2.png" />
-    <None Remove="Assets\W_3.png" />
-    <None Remove="Assets\W_4.png" />
-    <None Remove="Assets\W_5.png" />
-    <None Remove="Assets\W_6.png" />
+    <None Remove="Assets\KingB.png" />
+    <None Remove="Assets\KingW.png" />
+    <None Remove="Assets\KnightB.png" />
+    <None Remove="Assets\KnightW.png" />
+    <None Remove="Assets\PawnB.png" />
+    <None Remove="Assets\PawnW.png" />
+    <None Remove="Assets\QueenB.png" />
+    <None Remove="Assets\QueenW.png" />
+    <None Remove="Assets\RookB.png" />
+    <None Remove="Assets\RookW.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,22 +32,22 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Assets\BL_1.png" />
-    <Resource Include="Assets\BL_2.png" />
-    <Resource Include="Assets\BL_3.png" />
-    <Resource Include="Assets\BL_4.png" />
-    <Resource Include="Assets\BL_5.png" />
-    <Resource Include="Assets\BL_6.png" />
+    <Resource Include="Assets\BishB.png" />
+    <Resource Include="Assets\BishW.png" />
     <Resource Include="Assets\board.jpg" />
     <Resource Include="Assets\CursorB.cur" />
     <Resource Include="Assets\CursorW.cur" />
     <Resource Include="Assets\icon.ico" />
-    <Resource Include="Assets\W_1.png" />
-    <Resource Include="Assets\W_2.png" />
-    <Resource Include="Assets\W_3.png" />
-    <Resource Include="Assets\W_4.png" />
-    <Resource Include="Assets\W_5.png" />
-    <Resource Include="Assets\W_6.png" />
+    <Resource Include="Assets\KingB.png" />
+    <Resource Include="Assets\KingW.png" />
+    <Resource Include="Assets\KnightB.png" />
+    <Resource Include="Assets\KnightW.png" />
+    <Resource Include="Assets\PawnB.png" />
+    <Resource Include="Assets\PawnW.png" />
+    <Resource Include="Assets\QueenB.png" />
+    <Resource Include="Assets\QueenW.png" />
+    <Resource Include="Assets\RookB.png" />
+    <Resource Include="Assets\RookW.png" />
   </ItemGroup>
 
 </Project>

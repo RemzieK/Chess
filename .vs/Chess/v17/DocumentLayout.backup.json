@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{77018C3E-E013-463E-9468-C9F741EF1A59}|ChessUI\\ChessUI.csproj|solutionrelative:chessui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{77018C3E-E013-463E-9468-C9F741EF1A59}|ChessUI\\ChessUI.csproj|c:\\users\\remi\\pictures\\visual studio\\chess\\chessui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77018C3E-E013-463E-9468-C9F741EF1A59}|ChessUI\\ChessUI.csproj|solutionrelative:chessui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77018C3E-E013-463E-9468-C9F741EF1A59}|ChessUI\\ChessUI.csproj|c:\\users\\remi\\pictures\\visual studio\\chess\\chessui\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77018C3E-E013-463E-9468-C9F741EF1A59}|ChessUI\\ChessUI.csproj|solutionrelative:chessui\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4EE08E1-0073-4C9E-9091-203683F53990}|ChessLogic\\ChessLogic.csproj|c:\\users\\remi\\pictures\\visual studio\\chess\\chesslogic\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4EE08E1-0073-4C9E-9091-203683F53990}|ChessLogic\\ChessLogic.csproj|solutionrelative:chesslogic\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,8 +30,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Images.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessUI\\Images.cs",
+              "RelativeDocumentMoniker": "ChessUI\\Images.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessUI\\Images.cs",
+              "RelativeToolTip": "ChessUI\\Images.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T18:59:23.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ChessUI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ChessUI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T18:55:56.23Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -38,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GameState.cs",
               "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessLogic\\GameState.cs",
               "RelativeDocumentMoniker": "ChessLogic\\GameState.cs",
@@ -46,12 +80,11 @@
               "RelativeToolTip": "ChessLogic\\GameState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T11:11:46.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T11:11:46.837Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Board.cs",
               "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessLogic\\Board.cs",
               "RelativeDocumentMoniker": "ChessLogic\\Board.cs",
