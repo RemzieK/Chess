@@ -7,7 +7,7 @@
         public readonly static Direction Right = new Direction(0, 1);
         public readonly static Direction Left = new Direction(0, -1);
         //diagonals
-        public readonly static Direction UpRigth = Up + Right;
+        public readonly static Direction UpRight = Up + Right;
         public readonly static Direction UpLeft = Up + Left;
         public readonly static Direction DownRigth = Down + Right;
         public readonly static Direction DownLeft = Down + Left;
