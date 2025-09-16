@@ -30,6 +30,7 @@ namespace ChessUI
 
             gameState = new GameState(Player.White, Board.Initial());
             DrawBoard(gameState.Board);
+            SetCursor(gameState.CurrentPlayer);
         }
 
         private void InitializeBoard()
@@ -109,6 +110,7 @@ namespace ChessUI
         {
             gameState.MakeMove(move);
             DrawBoard(gameState.Board);
+            SetCursor(gameState.CurrentPlayer);
         }
         private void CacheMoves(IEnumerable<Move> moves)
         {
@@ -135,6 +137,18 @@ namespace ChessUI
             foreach(Position to in moveCache.Keys)
             {
                 highlights[to.Row, to.Col].Fill = Brushes.Transparent;
+            }
+        }
+
+        private void SetCursor(Player player)
+        {
+            if(player == Player.White)
+            {
+                Cursor = ChessCursor.WhiteCursor;
+            }
+            else
+            {
+                Cursor = ChessCursor.BlackCursor;
             }
         }
     }
