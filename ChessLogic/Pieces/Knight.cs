@@ -36,5 +36,7 @@
         {
             return MovePositions(from, board).Select(to => new NormalMove(from, to));
         }
+
+
     }
 }
