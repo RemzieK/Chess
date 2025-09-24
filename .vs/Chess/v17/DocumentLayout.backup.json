@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{77018C3E-E013-463E-9468-C9F741EF1A59}|ChessUI\\ChessUI.csproj|c:\\users\\remi\\pictures\\visual studio\\chess\\chessui\\gameovermenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{77018C3E-E013-463E-9468-C9F741EF1A59}|ChessUI\\ChessUI.csproj|solutionrelative:chessui\\gameovermenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77018C3E-E013-463E-9468-C9F741EF1A59}|ChessUI\\ChessUI.csproj|c:\\users\\remi\\pictures\\visual studio\\chess\\chessui\\gameovermenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77018C3E-E013-463E-9468-C9F741EF1A59}|ChessUI\\ChessUI.csproj|solutionrelative:chessui\\gameovermenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77018C3E-E013-463E-9468-C9F741EF1A59}|ChessUI\\ChessUI.csproj|c:\\users\\remi\\pictures\\visual studio\\chess\\chessui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{77018C3E-E013-463E-9468-C9F741EF1A59}|ChessUI\\ChessUI.csproj|solutionrelative:chessui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4EE08E1-0073-4C9E-9091-203683F53990}|ChessLogic\\ChessLogic.csproj|c:\\users\\remi\\pictures\\visual studio\\chess\\chesslogic\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4EE08E1-0073-4C9E-9091-203683F53990}|ChessLogic\\ChessLogic.csproj|solutionrelative:chesslogic\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -58,11 +70,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "GameOverMenu.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessUI\\GameOverMenu.xaml.cs",
+              "RelativeDocumentMoniker": "ChessUI\\GameOverMenu.xaml.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessUI\\GameOverMenu.xaml.cs",
+              "RelativeToolTip": "ChessUI\\GameOverMenu.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAlwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:23:37.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameOverMenu.xaml",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessUI\\GameOverMenu.xaml",
+              "RelativeDocumentMoniker": "ChessUI\\GameOverMenu.xaml",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessUI\\GameOverMenu.xaml",
+              "RelativeToolTip": "ChessUI\\GameOverMenu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-24T10:14:39.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessUI\\App.xaml",
+              "RelativeDocumentMoniker": "ChessUI\\App.xaml",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessUI\\App.xaml",
+              "RelativeToolTip": "ChessUI\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-24T10:03:52.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Result.cs",
               "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessLogic\\Result.cs",
               "RelativeDocumentMoniker": "ChessLogic\\Result.cs",
@@ -70,12 +119,11 @@
               "RelativeToolTip": "ChessLogic\\Result.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T18:03:36.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T18:03:36.579Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "EndReason.cs",
               "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessLogic\\EndReason.cs",
               "RelativeDocumentMoniker": "ChessLogic\\EndReason.cs",
@@ -83,25 +131,24 @@
               "RelativeToolTip": "ChessLogic\\EndReason.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T17:59:08.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T17:59:08.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "GameState.cs",
               "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessLogic\\GameState.cs",
               "RelativeDocumentMoniker": "ChessLogic\\GameState.cs",
               "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessLogic\\GameState.cs",
               "RelativeToolTip": "ChessLogic\\GameState.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowD4AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwD4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-22T17:51:45.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Move.cs",
               "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessLogic\\Moves\\Move.cs",
               "RelativeDocumentMoniker": "ChessLogic\\Moves\\Move.cs",
@@ -113,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Board.cs",
               "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessLogic\\Board.cs",
               "RelativeDocumentMoniker": "ChessLogic\\Board.cs",
@@ -125,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "King.cs",
               "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessLogic\\Pieces\\King.cs",
               "RelativeDocumentMoniker": "ChessLogic\\Pieces\\King.cs",
@@ -137,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Knight.cs",
               "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessLogic\\Pieces\\Knight.cs",
               "RelativeDocumentMoniker": "ChessLogic\\Pieces\\Knight.cs",
@@ -149,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Pawn.cs",
               "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessLogic\\Pieces\\Pawn.cs",
               "RelativeDocumentMoniker": "ChessLogic\\Pieces\\Pawn.cs",
@@ -161,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Piece.cs",
               "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessLogic\\Pieces\\Piece.cs",
               "RelativeDocumentMoniker": "ChessLogic\\Pieces\\Piece.cs",
@@ -173,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "ChessCursor.cs",
               "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessUI\\ChessCursor.cs",
               "RelativeDocumentMoniker": "ChessUI\\ChessCursor.cs",
@@ -185,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessUI\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ChessUI\\MainWindow.xaml.cs",
@@ -197,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessUI\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ChessUI\\MainWindow.xaml",
