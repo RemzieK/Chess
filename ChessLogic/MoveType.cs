@@ -13,6 +13,6 @@ namespace ChessLogic
         CastleQS,
         DoublePawn,
         EnPassant,
-        PawnPromovion
+        PawnPromotion
     }
 }

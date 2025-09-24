@@ -1,14 +1,10 @@
-﻿using System.Text;
+﻿using ChessLogic;
+using ChessLogic.Moves;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
-using ChessLogic;
 
 namespace ChessUI
 {
@@ -108,9 +104,33 @@ namespace ChessUI
 
             if(moveCache.TryGetValue(pos, out Move move))
             {
-                HandleMove(move);
+                if(move.Type == MoveType.PawnPromotion)
+                {
+                    HandlePromotion(move.FromPos, move.ToPos);
+                }
+                else
+                {
+                    HandleMove(move);
+                }
             }
         }
+
+        private void HandlePromotion(Position from, Position to)
+        {
+            pieceImages[to.Row, to.Col].Source = Images.GetImage(gameState.CurrentPlayer, PieceType.Pawn);
+            pieceImages[from.Row, from.Col].Source = null;
+
+            PromotionMenu promMenu = new PromotionMenu(gameState.CurrentPlayer);
+            MenuContainer.Content = promMenu;
+
+            promMenu.PieceSelected += type =>
+            {
+                MenuContainer.Content = null;
+                Move promMove = new PawnPromotion(from, to, type);
+                HandleMove(promMove);
+            };
+        }
+
         private void HandleMove(Move move)
         {
             gameState.MakeMove(move);
