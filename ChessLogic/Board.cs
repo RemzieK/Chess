@@ -8,8 +8,13 @@ namespace ChessLogic
 {
     public class Board
     {
-        // rectangular array for storing the pieces
         private readonly Piece[,] pieces = new Piece[8, 8];
+
+        private readonly Dictionary<Player, Position> pawnSkipPositions = new Dictionary<Player, Position>
+        {
+            {Player.White, null },
+            {Player.Black, null },
+        };
 
         public Piece this[int row, int col]
         {
@@ -23,7 +28,16 @@ namespace ChessLogic
             set { this[pos.Row, pos.Col] = value; }
         }
 
-        //retun a board with all the pieces put correctly
+        public Position GetPawnSkipPosition(Player player)
+        {
+            return pawnSkipPositions[player];
+        }
+
+        public void SetPawnSkipPosition(Player player, Position pos)
+        {
+            pawnSkipPositions[player] = pos;
+        }
+
         public static Board Initial()
         {
             Board board = new Board();
@@ -31,10 +45,8 @@ namespace ChessLogic
             return board;
         }
 
-        //The start pieces on their places by coordinates
         private void AddStartPieces()
         {
-            //black pieces on top row
             this[0, 0] = new Rook(Player.Black);
             this[0, 1] = new Knight(Player.Black);
             this[0, 2] = new Bishop(Player.Black);
@@ -44,7 +56,6 @@ namespace ChessLogic
             this[0, 6] = new Knight(Player.Black);
             this[0, 7] = new Rook(Player.Black);
 
-            //white pieces on bottom row
             this[7, 0] = new Rook(Player.White);
             this[7, 1] = new Knight(Player.White);
             this[7, 2] = new Bishop(Player.White);
@@ -54,7 +65,6 @@ namespace ChessLogic
             this[7, 6] = new Knight(Player.White);
             this[7, 7] = new Rook(Player.White);
 
-            //adding the pawns for both players using a loop
             for(int c = 0; c < 8; c++)
             {
                 this[1, c] = new Pawn(Player.Black);
