@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4EE08E1-0073-4C9E-9091-203683F53990}|ChessLogic\\ChessLogic.csproj|c:\\users\\remi\\pictures\\visual studio\\chess\\chesslogic\\moves\\castle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4EE08E1-0073-4C9E-9091-203683F53990}|ChessLogic\\ChessLogic.csproj|solutionrelative:chesslogic\\moves\\castle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4EE08E1-0073-4C9E-9091-203683F53990}|ChessLogic\\ChessLogic.csproj|c:\\users\\remi\\pictures\\visual studio\\chess\\chesslogic\\pieces\\king.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4EE08E1-0073-4C9E-9091-203683F53990}|ChessLogic\\ChessLogic.csproj|solutionrelative:chesslogic\\pieces\\king.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4EE08E1-0073-4C9E-9091-203683F53990}|ChessLogic\\ChessLogic.csproj|c:\\users\\remi\\pictures\\visual studio\\chess\\chesslogic\\moves\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4EE08E1-0073-4C9E-9091-203683F53990}|ChessLogic\\ChessLogic.csproj|solutionrelative:chesslogic\\moves\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Move.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessLogic\\Moves\\Move.cs",
+              "RelativeDocumentMoniker": "ChessLogic\\Moves\\Move.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessLogic\\Moves\\Move.cs",
+              "RelativeToolTip": "ChessLogic\\Moves\\Move.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T18:12:35.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "King.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessLogic\\Pieces\\King.cs",
+              "RelativeDocumentMoniker": "ChessLogic\\Pieces\\King.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessLogic\\Pieces\\King.cs",
+              "RelativeToolTip": "ChessLogic\\Pieces\\King.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAIwGsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T18:04:12.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Castle.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessLogic\\Moves\\Castle.cs",
+              "RelativeDocumentMoniker": "ChessLogic\\Moves\\Castle.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\Chess\\ChessLogic\\Moves\\Castle.cs",
+              "RelativeToolTip": "ChessLogic\\Moves\\Castle.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAEIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T17:52:04.648Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
