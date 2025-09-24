@@ -32,7 +32,7 @@ namespace ChessLogic
         {
             move.Execute(Board);
             CurrentPlayer = CurrentPlayer.Opponent();
-            CheckForOver();
+            CheckForGameOver();
         }
 
         public IEnumerable<Move> AllLegalMovesFor(Player player)
@@ -46,9 +46,17 @@ namespace ChessLogic
             return moveCandidates.Where(move => move.IsLegal(Board));
         }
 
-        private void CheckForOver()
+        private void CheckForGameOver()
         {
-            if (!AllLegalMovesFor(CurrentPlayer).Any())
+            var legalMoves = AllLegalMovesFor(CurrentPlayer);
+
+            if (legalMoves.Any())
+            {
+                Result = null;
+                return;
+            }
+
+            if (Board.IsInCheck(CurrentPlayer))
             {
                 Result = Result.Win(CurrentPlayer.Opponent());
             }
@@ -57,6 +65,7 @@ namespace ChessLogic
                 Result = Result.Draw(EndReason.Stalemate);
             }
         }
+
 
         public bool IsGameOver()
         {
