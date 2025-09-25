@@ -1,4 +1,4 @@
-﻿using ChessLogic.Moves;
+﻿using ChessLogic;
 using System;
 using System.Collections.Generic;
 using System.Linq;
