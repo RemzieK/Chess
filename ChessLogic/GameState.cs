@@ -65,6 +65,10 @@ namespace ChessLogic
             {
                 Result = Result.Draw(EndReason.Stalemate);
             }
+            else if (Board.InsufficitentMaterial())
+            {
+                Result = Result.Draw(EndReason.InsufficientMaterial);
+            }
         }
 
 
