@@ -12,6 +12,8 @@ namespace ChessLogic
         public Player CurrentPlayer { get; private set; }
         public Result Result { get; private set; } = null;
 
+        private int noCapturePawnMoves = 0;
+
         public GameState(Player player, Board board)
         {
             CurrentPlayer = player;
@@ -31,8 +33,18 @@ namespace ChessLogic
         public void MakeMove(Move move)
         {
             Board.SetPawnSkipPosition(CurrentPlayer, null);
-            move.Execute(Board);
-            CurrentPlayer = CurrentPlayer.Opponent();
+            bool captureOrPawn = move.Execute(Board);
+
+            if (captureOrPawn)
+            {
+                noCapturePawnMoves = 0;
+            }
+            else
+            {
+                noCapturePawnMoves++;
+            }
+
+                CurrentPlayer = CurrentPlayer.Opponent();
             CheckForGameOver();
         }
 
@@ -49,25 +61,23 @@ namespace ChessLogic
 
         private void CheckForGameOver()
         {
-            var legalMoves = AllLegalMovesFor(CurrentPlayer);
-
-            if (legalMoves.Any())
+            if (!AllLegalMovesFor(CurrentPlayer).Any())
             {
-                Result = null;
-                return;
-            }
-
-            if (Board.IsInCheck(CurrentPlayer))
-            {
-                Result = Result.Win(CurrentPlayer.Opponent());
-            }
-            else
-            {
-                Result = Result.Draw(EndReason.Stalemate);
-            }
-            else if (Board.InsufficitentMaterial())
+                if (Board.IsInCheck(CurrentPlayer))
+                {
+                    Result = Result.Win(CurrentPlayer.Opponent());
+                }
+                else
+                {
+                    Result = Result.Draw(EndReason.Stalemate);
+                }
+            }else if (Board.InsufficitentMaterial())
             {
                 Result = Result.Draw(EndReason.InsufficientMaterial);
+            }
+            else if (FiftyMoveRule())
+            {
+                Result = Result.Draw(EndReason.FiftyMoveRule);
             }
         }
 
@@ -75,6 +85,12 @@ namespace ChessLogic
         public bool IsGameOver()
         {
             return Result != null;
+        }
+
+        private bool FiftyMoveRule()
+        {
+            int fullMoves = noCapturePawnMoves / 2;
+            return fullMoves == 50;
         }
     }
 }
